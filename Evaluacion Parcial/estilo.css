@@ -1,0 +1,66 @@
+video
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;  
+}
+header
+{
+    color: rgb(22, 22, 22);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: LXGW WenKai Mono TC;
+}
+h1
+{
+    font-size: 500%;
+    padding: 10px;
+    text-align: center;
+}
+h2
+{
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#menu
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 15px;
+}
+#menu li
+{
+    padding: 10px;
+}
+#menu li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Bungee", sans-serif;
+    font-size: 140%;
+}
+.menuiconos:hover 
+{
+    box-shadow: 0px 0px 50px black;
+    transition: .7s;
+}
+#redes
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#redes li
+{
+    padding: 25px;
+    list-style-type: none;
+}
