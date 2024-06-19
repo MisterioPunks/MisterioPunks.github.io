@@ -1,0 +1,161 @@
+#fondo
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;  
+    filter: brightness(0.8);
+}
+#pagina
+{
+    width: 50%;
+    margin: auto;
+    height: 1800px;
+}
+.indice
+{
+    position: sticky;
+    top: 0;
+    background-color: rgb(95, 191, 255);
+    z-index: 20;
+    border: 3px solid white;
+    font-family: LXGW WenKai Mono TC ;
+     text-align: center;
+}
+h1
+{
+    font-size: 250%;
+    padding: 15px;
+    text-align: center;
+    
+}
+h1 a
+{
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover
+{
+    font-size: 200%;
+    transition: .7s;
+}
+
+.conectores
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 25px;
+}
+.conectores li
+{
+    padding: 15px;
+}
+.conectores li a
+{
+    text-decoration: none;
+    padding: 18px;
+    color:black;
+}
+.conectores li a:hover
+{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 30px solid white;
+    font-size: 20px;
+    transition: .7s;
+    transition-behavior: .7s;
+}
+#aqui
+{
+    border-bottom: 2px solid rgb(255, 2, 2);
+}
+#aqui:hover
+{
+    border-bottom: white;
+    transition: .7s;
+}
+#cuerpo
+{
+    color: white;
+    padding: 20px;
+    font-family: Oswald;
+    font-size: 24px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+.iconotitulo
+{
+    text-align: center;
+    float: right;
+    color: rgb(255, 49, 49);
+}
+.iconotitulo img
+{
+    border-radius: 50%;
+    width: 80px;
+}
+h2
+{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(255, 230, 0);
+    font-family: Oswald;
+}
+#Cuerpo p
+{
+    text-align: justify;
+    padding: 15px;
+    font-size: 125%;
+}
+#fuecoco,#quaxly
+{
+    float: left;
+    margin: 15px;
+    
+}
+#sinopsisfuecoco,#sinopsissprigatito,#sinopsisquaxly{
+    text-align: center;
+}
+#sprigatito{
+    float: right;
+    margin: 15px;
+}
+#fuecocoh2
+{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(255, 38, 0);
+    font-family: Oswald;
+}
+#sprigatitoh2
+{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(101, 255, 87);
+    font-family: Oswald;
+}
+#quaxlyh2{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(0, 225, 255);
+    font-family: Oswald;
+}
+#redes1
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#redes1 li
+{  
+    padding: 10px;
+}
+#seguir
+{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(221, 200, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

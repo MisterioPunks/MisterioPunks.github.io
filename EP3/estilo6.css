@@ -1,0 +1,259 @@
+#fondo
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;  
+    filter: brightness(0.8);
+}
+#pagina
+{
+    width: 50%;
+    margin: auto;
+    height: 1800px;
+}
+.indice
+{
+    position: sticky;
+    top: 0;
+    background-color: rgb(145, 78, 2);
+    z-index: 20;
+    border: 3px solid white;
+    font-family: LXGW WenKai Mono TC ;
+    text-align: center;
+}
+h1
+{
+    font-size: 250%;
+    padding: 15px;
+    text-align: center;
+}
+h1 a
+{
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover
+{
+    font-size: 200%;
+    transition: .7s;
+}
+.conectores
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 25px;
+}
+.conectores li
+{
+    padding: 15px;
+}
+.conectores li a
+{
+    text-decoration: none;
+    padding: 18px;
+    color:black;
+}
+.conectores li a:hover
+{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 30px solid white;
+    font-size: 20px;
+    transition: .7s;
+    transition-behavior: .7s;
+}
+#aqui
+{
+    border-bottom: 2px solid rgb(255, 2, 2);
+}
+p{
+    text-align: justify;
+}
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: brown;
+    box-shadow: 0px 4px 5px 0px rgb(77, 40, 40);
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#menu a{
+    text-decoration: solid;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section img{
+    width: 65%;
+    display: flex;
+    flex-basis: 30%;
+}
+#rs{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+#rs a{
+    padding: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#rs a img{
+    position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+#rs a:hover img{
+  transform: rotateY(360deg);
+}
+#rs a:before{
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+i{
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    margin-top: 10%;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+}
+.contacto{
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+input, label,textarea{
+    flex-wrap: wrap;
+    margin: 5px;
+    font-weight: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    height: 40px;
+}
+textarea{
+    height: 100px;
+}
+.boton>input{
+    color: whitesmoke;
+    background-color: rgb(78, 83, 99);
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tabla{
+    width: 100%;
+    flex-basis: 60%;
+    color: rgb(0, 0, 0);
+}
+.formulario{
+    width: 100%;
+    flex-basis: 30%;
+}
+.mapa{
+    height: 500px;
+    width: 70%; 
+    border: 3px rgb(141, 60, 13) solid;
+}
+caption{
+    padding: 10px;
+    font-size: 28px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(107, 62, 10);
+}
+.tabla img{
+    padding: 20px;
+    width: 300px;
+}
+#xdd{
+    padding: 10px;
+    font-size: 28px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(107, 62, 10);
+}
+#redes1
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+#redes1 li
+{
+    padding: 10px;
+}
+#pokeball2{
+    border: 3px rgb(141, 60, 13) solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+#cambiar{
+    margin-bottom: 100px;
+}
