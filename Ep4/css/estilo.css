@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .mid {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .texto {
+        max-width: 100%;
+    }
+   img{
+    width: 100%;
+   }
+}
